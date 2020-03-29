@@ -8,7 +8,7 @@ You can convert your model using the "convert_glb.py", in which you need to modi
 ## Render the model
 You should install blender 2.8a. This script is tested on MacOS and Linux, and it should work on Windows.
 Run the script by:
-```python
+```
 blender --background get_pcd.blend -P render_rgb_depth.py
 ```
 This script will render both RGB and Depth of the model.<br/>
