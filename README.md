@@ -2,7 +2,7 @@
 Rendering script for shapenet object dataset using blender2.8
 
 ## Some preparation
-Firstly, use obj2gltf to convert all your models in your shapenet dataset into .glb format. You can refer to the github page for [obj2gltf](https://github.com/CesiumGS/obj2gltf)
+Firstly, use obj2gltf to convert all your models in your shapenet dataset into .glb format. You can refer to the github page for [obj2gltf](https://github.com/CesiumGS/obj2gltf).<br/>
 You can convert your model using the "convert_glb.py", in which you need to modify the variable 'shapenet_dataset', which contains a lot of obj models, and 'dst_dir', where you save your converted glb file.
 
 ## Render the model
