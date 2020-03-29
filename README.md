@@ -14,3 +14,6 @@ blender --background get_pcd.blend -P render_rgb_depth.py
 This script will render both RGB and Depth of the model.<br/>
 Also remember to change 'shapenet_dir' and 'dst_dir' to where you save your glb model and where you want to save your results.<br/>
 The results will be saved in OPEN_EXR format, you can also save it to png or jpg by modifying line 62 and line 63.
+
+## Some issues during the rendering
+Some models in shapenet dataset are not able to load, therefore, you will have to delete the model when you find your script stoping.
