@@ -2,9 +2,9 @@ import bpy
 import numpy as np
 import sys
 import os
-sys.path.append('/Users/liuhaolin/miniconda3/lib/python3.7/site-packages/cv2/')
-sys.path.append('/Users/liuhaolin/miniconda3/lib/python3.7/site-packages/open3d')
-import open3d as o3d
+#sys.path.append('/Users/liuhaolin/miniconda3/lib/python3.7/site-packages/cv2/')
+#sys.path.append('/Users/liuhaolin/miniconda3/lib/python3.7/site-packages/open3d')
+#import open3d as o3d
 import cv2
 def pointcloud(depth,color, fov):
     fy = fx = 0.5 / np.tan(fov * 0.5) # assume aspectRatio is one.
